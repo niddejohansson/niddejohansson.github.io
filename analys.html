@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="theme-switch">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gör en analys och bedömning"/> 
+  <meta name="keywords" content="snabb analys, snabb bedömning, utreda, socialtjänsten, bbic, ibic, utredning, digital hjälp utredning, analys socialtjänsten, bedömning socialtjänsten, analys soc, bedömning soc">
+  <meta property="og:type" content="website" /> 
+  <meta property="og:title" content="Utredningshjälp" /> 
+  <meta property="og:url" content="https://enklareutredning.se"/> 
+  <!-- <meta property="og:image" content="https://7zea.com/app/filesads/1844/medium/1618274407-29.jpg">  -->
+  <meta property="og:description" content="Underlätta ditt arbete i vardagen på socialtjästen"/> 
+  <meta property="og:site_name" content="enklareutredning.se"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/main.css">
+    <title>Analys</title>
+</head>
+<header>
+  <nav class="navbar navbar-nav navbar-light bg-light navbar-expand-sm">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navCollapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Hem</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="analys.html">Analys</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="varfor.html">Varför</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="om_oss.html">Om</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+</nav>
+<!--<div class="theme-switch-wrapper">
+  <label class="theme-switch" for="checkbox">
+      <input type="checkbox" id="checkbox" />
+      <div class="slider round"></div>
+</label>
+<em class="darkModeText">Dark Mode</em>
+</div> -->
+    <div class="overlay">
+        <h1>Enklare utredning</h1>
+        <h3>- Ditt dagliga stöd i utredningsarbetet -</h3>
+    </div>
+</header>
+<body>
+    <div class="container">
+        <class class="row row-cols-12">
+        <h2>Analys och bedöming</h2>
+        <h6>Bocka i de risker och skydd du sett under utredningen</h6>
+        <h3>Risker</h3>
+        <div class="col-4">
+            <h5>Familj och miljö</h5>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="1" id="checkRiskFamilj1">
+              <label class="form-check-label" for="flexCheckDefault">
+                Nuvarande familjesituation
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="2" id="checkRiskFamilj2">
+              <label class="form-check-label" for="flexCheckDefault">
+                Familjebakgrund
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="3" id="checkRiskFamilj3">
+              <label class="form-check-label" for="flexCheckDefault">
+                Boende, arbete och ekonomi
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="4" id="checkRiskFamilj4">
+              <label class="form-check-label" for="flexCheckDefault">
+                Socialt nätverk och integrering
+              </label>
+              </div>
+        </div>
+          <div class="col-4">
+              <h5>Barnets utveckling</h5>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="5" id="checkRiskUtveckling1">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Hälsa
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="6" id="checkRiskUtveckling2">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Utbildning
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="7" id="checkRiskUtveckling3">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Känslor och beteende
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="8" id="checkRiskUtveckling4">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Sociala relationer
+                </label>
+              </div>
+          </div>
+        <div class="col-4">
+            <h5>Föräldrarnas förmåga</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="9" id="checkRiskForaldrar1">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Grundläggande omsorg
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="10" id="checkRiskForaldrar2">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Stimulans och vägledning
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="11" id="checkRiskForaldrar3">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Känslomässig tillgänglighet
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="12" id="checkRiskForaldrar4">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Säkerhet
+                </label>
+              </div>
+            </div>
+        </class>
+      <class class="row row-cols-12">
+        <h3>Skydd</h3>
+        <div class="col-4">
+            <h5>Familj och miljö</h5>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="13" id="checkSkyddFamilj1">
+              <label class="form-check-label" for="flexCheckDefault">
+                Nuvarande familjesituation
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="14" id="checkSkyddFamilj2">
+              <label class="form-check-label" for="flexCheckDefault">
+                Familjebakgrund
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="15" id="checkSkyddFamilj3">
+              <label class="form-check-label" for="flexCheckDefault">
+                Boende, arbete och ekonomi
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="16" id="checkSkyddFamilj4">
+              <label class="form-check-label" for="flexCheckDefault">
+                Socialt nätverk och integrering
+              </label>
+              </div>
+        </div>
+        <div class="col-4">
+          <h5>Barnets utveckling</h5>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="17" id="checkSkyddUtveckling1">
+            <label class="form-check-label" for="flexCheckDefault">
+              Hälsa
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="18" id="checkSkyddUtveckling2">
+            <label class="form-check-label" for="flexCheckDefault">
+              Utbildning
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="19" id="checkSkyddUtveckling3">
+            <label class="form-check-label" for="flexCheckDefault">
+              Känslor och beteende
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="20" id="checkSkyddUtveckling4">
+            <label class="form-check-label" for="flexCheckDefault">
+              Sociala relationer
+            </label>
+          </div>
+      </div>
+      <div class="col-4">
+        <h5>Föräldrarnas förmåga</h5>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="21" id="checkSkyddForaldrar1">
+          <label class="form-check-label" for="flexCheckDefault">
+            Grundläggande omsorg
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="22" id="checkSkyddForaldrar2">
+          <label class="form-check-label" for="flexCheckDefault">
+            Stimulans och vägledning
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="23" id="checkSkyddForaldrar3">
+          <label class="form-check-label" for="flexCheckDefault">
+            Känslomässig tillgänglighet
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="24" id="checkSkyddForaldrar4">
+          <label class="form-check-label" for="flexCheckDefault">
+            Säkerhet
+          </label>
+        </div>
+    </div>
+</class>
+<div class="line"></div>
+<div class="d-grid gap-2 col-6 mx-auto">
+  <div class="col-12 analysText" id="riskFamilj1" style="display:none" value="1">
+    <p><strong>Nuvarande familjesituation (risk)</strong><br>
+      Barn som växer upp i utsatta familjesituationer löper en ökad risk. Exempel på dessa familjesituationer kan vara familjer där det förekommer psykisk ohälsa, där det bara finns en vuxen närvarande eller en familj med många barn.
+      Föräldrars eller syskons hälsa och livsstil kan också utgöra riskfaktorer för barnet. Det kan leda både till att föräldrarna försummar sin egen och/eller barnets hälsa. Barnet kan också leva med en oro för sina föräldrar eller syskon vilket kan påverka barnets psykiska hälsa negativt.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="riskFamilj2" style="display:none" value="2">
+    <p><strong>Familjebakgrund (risk)</strong><br>
+      Om familjen har en svår historik kan det vara en risk för barnet. Händelserna kan både direkt och indirekt påverka både barn och övriga i familjen. Exempel på sådana händelser kan vara flykt från krig eller ett dödsfall i familjen. En konfliktfylld separation mellan föräldrar kan också påverka barnet. Allvarliga händelser kan skapa en krisreaktion, och i värsta fall kan det leda till psykisk ohälsa. Tidigare omsorgsbrist från en förälder är också en risk då det påvisar en brist i föräldraförmågan.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="riskFamilj3" style="display:none">
+    <p><strong>Boende, arbete och ekonomi (risk)</strong><br>
+      Barn som växer upp med föräldrar som saknar anknytning till arbetsmarknaden eller har en låg utbildning löper en risk. Levnadsstandarden tenderar att bli lägre och arbetslösa löper en större risk att utveckla psykosociala problem. 
+      Barn som växer upp i ekonomiskt utsatt familjer löper ett flertal risker. Fysisk och psykisk ohälsa är vanligare bland barn som växer under ekonomiskt fattiga förhållanden. Att växa upp i ett socioekonomiskt utsatt område ökar riskerna för att hamna i kriminalitet. I familjer där ekonomiskt bistånd är den primära inkomsten löper barnen en större risk att lämna grundskolan med lägre betyg än andra barn.
+      Trångboddhet, återkommande vräkningar eller bostadslöshet är tecken på en bristande omsorg. Att familjer flyttar ofta och lever ett kringflackande liv kan vara ett tecken på att de flyr från myndigheter på tidigare orter.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="riskFamilj4" style="display:none">
+    <p><strong>Socialt nätverk och integrering (risk)</strong><br>
+      Att ha ett litet eller helt sakna nätverk är en risk för barnet. Isolering ökar risken för psykisk ohälsa, och det gör också att missförhållanden i hemmet kan vara svårare att upptäcka. Ett för starkt socialt nätverk kan också utgöra en risk, då det kan öka på tryckningar gällande hedersrelaterat våld och förtryck.
+      Att ha stödinsatser som inte motsvarar förväntningar eller förhoppningar kan också vara en riskfaktor, då det kan innebära att andra instanser tar ett steg tillbaka när man vet att det finns stödinsatser i familjen. Att ha många olika professionella i sitt nätverk kan leda till att saker och ting faller mellan stolarna.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="riskUtveckling1" style="display:none">
+    <p><strong>Hälsa (risk)</strong><br>
+      Återkommande magont, svårigheter med sömn eller mat, huvudvärk eller bristande tandhygien kan alla vara tecken på att ett barn utsätts för omsorgsbrist. Att barnet ofta behöver uppsöka skolsköterska eller läkare kan också vara tecken på att ett barn far illa. 
+      Fysiska hälsoproblem, funktionsnedsättning eller utvecklingsstörning kan leda till att barnet utsätts för omsorgsbrist, vilket i sin tur kan leda till psykosociala problem. Det är viktigt att barn med långvarig sjukdom uppmärksammas och man behöver följa utveckling över tid. <br><br>
+      Barn som återkommande har många blåmärken eller andra märken på kroppen är viktiga att uppmärksamma, då det kan vara tecken på att barnet utsatts för våld. Nypmärken, fingertoppsmärken på armar eller ben och märken efter bälte är alla saker som behöver uppmärksammas. 
+      Barn som återkommande drabbas av olyckor är en riskgrupp då det kan tyda på en bristande föräldraförmåga att skydda sina barn. Barn som varit med om flera fallolyckor, blivit påköra eller varit med om olyckor i hemmet kan också vara barn som utsätts för våld av sina föräldrar. <br><br>
+      Barn med psykisk ohälsa riskerar i högre utsträckning att utsättas för bristande omsorg och utveckla psykosocial problematik. Det kan handla om självskadande, ångest, depression eller utåtagerande beteende. Barn med ett blygt beteende eller inåtvända barn är viktiga att uppmärksamma, då det kan vara tecken på försummelse eller våld, och kan leda till att barnet inte utvecklas i takt med sina jämnåriga. Det kan också påverka förmågan till lek och inlärning. <br><br>
+      Barn vars föräldrar är hotade löper en risk att utveckla PTSD till följd av förälderns utsatthet. Dessa barn kan utveckla en hyperaktivitet som har sin grund i att barnet alltid är redo att försvara sin förälder. Dessa barn tenderar i större utsträckning utveckla beteendestörningar och är extra känsliga för stress, 
+      Barn som har blivit utsatta för sexuella övergrepp riskerar i större utsträckning utveckla ett självskadebeteende eller missbruk. <br><br>     
+      Att göra en tidig alkohol- eller drogdebatten ökar riskerna hos barn eller tonåringar. Det kan vara ett tecken på brister hos föräldrarna eller att barnet har vänner vars föräldrar brister i sin omsorg. Tidig debut ökar också riskerna för att utveckla ett missbruk senare i livet. Barn med risk- eller missbruk tenderar i högre utsträckning lida av psykisk ohälsa och ett kriminellt beteende och dessa personer klarar i lägre utsträckning sin skolgång. 
+      Att ha en försummad sjukvård eller tandvård är en risk, och det påvisar brister i föräldraförmågan. Dels kan det vara så att barnet inte får den vård det behöver, och om utomstående personer undersöker barnet kan det också komma fram en oro utifrån det. Dålig tandhälsa hos ett barn eller sjukdomar som inte medicineras enligt läkares rekommendationer kan bero på ett försummande av föräldrarna.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="riskUtveckling2" style="display:none">
+    <p><strong>Utbildning (risk)</strong><br>
+      Att ett barn inte trivs i skolan eller har oroväckande frånvaro är riskfaktorer. Det kan vara kopplat både till bristande föräldraförmåga eller eget destruktivt beteende hos barnet. Ett barn som skolkar utsätter sig också för risken att börja umgås med personer som också skolkar, vilket också det är en riskfaktor. Att barn inte har adekvata förväntningar på sin skolgång både från sig själv och andra personer i sin närhet är en riskfaktor. 
+      Inlärningssvårigheter hos ett barn utgör en risk, speciellt i de fall de inte får den hjälp de behöver. Bristande språkliga kunskaper är en försvårande omständighet då språket utgör grunden för lärande i alla ämnen. Barn med inlärningssvårigheter löper också större risk att i framtiden utveckla psykisk ohälsa och psykosocial problematik. Det kan finnas kognitiva grunder till inlärningssvårigheter, men även barn som under längre tid utsatts för stress kan utveckla inlärningssvårigheter.    
+      Låga betyg eller helt avsaknad av betyg utgör en risk för att i framtiden utveckla psykosociala problem. Det innebär också en större svårighet att komma in på arbetsmarknaden. Att känna ett misslyckande över sin skolgång kan också leda till att barnet i större utsträckning börjar skolka, vilket skapar en nedåtgående spiral.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="riskUtveckling3" style="display:none">
+    <p><strong>Känslor och beteende (risk)</strong><br>
+      Barn som uppvisar en rädsla för en eller båda sina föräldrar är viktiga att uppmärksamma, då det kan vara tecken på en anknytningsproblematik. Att de personer som ska utgöra en trygghet för barnet skapar en rädsla kan skapa ett trauma hos barnet. Att genom detta få en desorienterad anknytning ökar risken för många allvarliga konsekvenser senare i livet.
+      Barn som blir okontrollerbart arga löper en risk. Dessa barn hamnar i större utsträckning i konflikter med både barn och vuxna. I värsta fall kan det leda till att barnet utsätter andra eller sig själv för våld. <br><br>
+      Att ett barn ofta är oroligt eller nedstämt är en risk. Att under en längre tid vara nedstämd ökar risken för att utveckla psykosociala problem. Det kan finnas många anledningar till att ett barn är ledset eller nedstämt, och inte sällan har det att göra med hur barnet tänker om sig själv. Det kan också bero på något som någon annan utsatt barnet för som lett till oron eller nedstämdheten. Oro eller ångest kan också leda till problem så som sömnsvårigheter, ångest eller självskadebeteende.
+      Barn som uppvisar ett impulsivt eller överaktivt beteende löper en risk. Dessa barn har ofta svårare att följa instruktioner från föräldrar eller lärare. Detta kan leda till att skolgången blir svårare, då dessa barn kan ha svårt att fokusera länge på samma uppgift och koncentrationssvårigheter kan också göra att de glömmer bort saker som är nödvändiga för den uppgift de fått. <br><br>
+      Om barn uppvisar destruktiva problemlösningar är detta är risk. Det kan handla om barn som genom hot får sin vilja igenom. Dessa barn tenderar också att ha en negativt tolkningsstätt på vad andra personer säger till dem. Att ha svårigheter att visa medkänsla och ånger är även det riskfaktorer för barnet. Det kan innebära negativa konsekvenser i det sociala livet, vilket i förlängningen kan leda till utanförskap och psykosocial problematik
+      Barn som uppvisar ett kriminellt eller rebelliskt beteende löper en ökad risk. Det kan leda till framtida kriminalitet alternativt ett kriminellt umgänge vilket i sin tur kan leda till andra negativa konsekvenser, så som missbruk eller utanförskap. <br><br> Att ha ett normbrytare beteende, så som brottslighet eller manipulativitet är också det riskfaktorer. Dessa personer riskerar i högre utsträckning än andra att både utsätta och bli utsatta för brott mot personer.
+      Barn och ungdomar som tidigt gör alkohol- eller drogdebatten löper en förhöjd risk. Det innebär direkta risker i samband med berusningen, då det innebär en utsatt situation. Personer som debuterar tidigt med alkohol eller droger löper en större risk att i framtiden utveckla psykosociala problem.    
+      Aktiviteter som avskärmar barn eller ungdomar från kamrater kan också vara en riskfaktor. Att lägga all fritid vid datorn, mobilen eller träning kan innebära att sociala relationer blir lidande, vilket i sin tur kan leda till psykosociala problem.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="riskUtveckling4" style="display:none">
+    <p><strong>Sociala relationer (risk)</strong> <br>
+      Utvecklingen hos barnet kan skadas om barnets uppväxt är präglad av oförutsägbarhet och att barnet under längre tider varit borta från den ena eller båda föräldrarna. Det kan drabba barnet direkt genom att det behöver ta extra stort ansvar i hemmet eller inte ha någon i hemmet som lyssnar på den. Framtida problem som det kan leda till är att det påverka den framtida relation mellan barn och förälder. Anledningen till umgängesuppehållet kan även det vara en riskfaktor, så som kriminalitet, psykisk ohälsa eller missbruk. <br><br> 
+      En separation mellan föräldrarna kan vara en riskfaktor för barnet. Det är inte primärt separationen som påverkar barnet negativt, utan hur föräldrarna hanterar separationen. En situation med många och långa konflikter mellan föräldrarna efter separationen kan leda till att barnen blir nedstämda, ledsna, sover dåligt eller får ont i magen. Det som underlättar för barnet vid en separation är att föräldrarna kan samarbeta i frågor som rör barnet. I de fall där det förkommer en strid om vårdnad, boende och umgänge riskerar barnet att drabbas negativt att detta, då barnet ofta är lojal mot båda sina föräldrar och därför mår dåligt i den situationen. Barn kan också må dåligt över den lojalitetskonflikt som kan uppstå när föräldrar separerar.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="riskForaldrar1" style="display:none">
+    <p><strong>Grundläggande omsorg (risk)</strong><br>
+      Om föräldrarna brister i sin dagliga omsorg om sitt barn medför detta flera risker. Både hälsa, känslor och beteende, sociala relationer och utbildningen kan påverkas negativt om föräldrarna utsätter sitt barn för vanvård. Extra utsatta är barn som har särskilda behov eller barn som behöver kontinuerlig kontakt med sjukvård eller tandvård. Det kan också vara så att barn som vanvårdas inte heller kommer till de tider för sjukvård och tandvård som man har, och eventuella problem upptäcks således inte.<br><br>
+      Ett barn som vid upprepade tillfällen skadar sig allvarligt kan vara utsatt för vanvård. Om berättelsen om hur skadan uppkommit, vad som hänt eller att det är uppenbart att skadan uppkommit på ett annat vis än vad föräldrarna säger så kan barnet vara utsatt för våld i hemmet.
+      Att barn inte har fungerande vardagsrutiner är en risk. Att mat, sömn och skola inte fungerar kan vara ett tecken på brister hos föräldrarna eller att barnet inte mår bra.<br><br>
+      Föräldrar som lägger ett orimligt stort ansvar på sina barn är ett tecken på brister i föräldraförmågan. Det kan handla om att barn får ta hand om vardagssysslor i hemmet, så som matlagning och städning, eller att barnet får passa sina syskon i en orimligt hög utsträckning. Barn som får ta ansvar för sina föräldrars känslor eller att föräldrar ser sitt barn som sin kompis på lika villkor kan skapa en oro hos barnet, och barnet kan bli osäker på sin roll i relation till föräldern.
+      Två risker är överbeskyddande eller föräldrar som tror att barnen klarar mer än vad de kan. Överbeskyddande kan leda till att barnets utveckling inte följer andra barns utveckling i samma ålder. Om föräldrarna låter barnet klara sig själv i för stor utsträckning kan det leda till risker i form av att barnet råkar ut för olyckor, exempelvis i hemmet, vid ett vattendrag eller vid en väg.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="riskForaldrar2" style="display:none">
+    <p><strong>Stimulans och vägledning (risk)</strong> <br>
+      Om föräldrar inte är engagerade i sitt barn utsätter barnet för risker genom detta. Barnets möjligheter att ta till vara på intressen och potential hos barnet kan förbises. Att barnet inte upplever att föräldrarna är engagerade kan också skada självkänsla vilket över tid kan leda till negativa konsekvenser i det psykiska måendet hos barnet. Det kan också leda till emotionella, beteendemässiga och kognitiva svårigheter hos barnet.  Även överdrivet engagemang kan leda till problem. Att ett barn pressas hårt eller förväntas kunna mer än det gör kan leda till skadat självförtroende eller att barnet inte utvecklas i takt med andra barn.<br><br>  
+      Att ha en auktoritär uppfostringsstrategi utsätter i större grad än andra föräldrar barnet att fara illa. Detta då autoritära föräldrar i högre grad utsätter sina barn för straff som aga eller inlåsning vid en konflikt istället för att hantera konflikten på ett konstruktivt vis.   
+      Föräldrar som ofta är stressade eller har en egen problematik riskerar i högre grad att utsätta sina barn för verbalt eller fysiskt våld. Om barnet har svårigheter utöver det riskerar konflikterna mellan barn och föräldrar både bli vanligare och allvarligare.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="riskForaldrar3" style="display:none">
+    <p><strong>Känslomässig tillgänglighet (risk)</strong> <br>
+      Föräldrar som inte kan hålla en stabil kontakt med sina barn utsätter barnet för risker genom detta. Om kontakten med en eller båda föräldrarna är oförutsägbar eller har haft långa avbrott kan stabiliteten runt barnet försvinna, vilket kan leda till men för barnet. <br><br>   
+      Om föräldrarna inte känslomässigt kan skydda och hjälpa sina barn kan det påverka barnets psykiska hälsa negativt. Det kan också leda till att barnet inte själv kan styra sina känslor. Föräldrar som har ett missbruk eller en psykisk ohälsa kan också vara skrämmande för sitt barn då det kan leda till att föräldern inte är kontaktbar eller är förvirrad. I dessa situationer är det vanligt att barnet behöver ta ett större känslomässigt ansvar än vad som är åldersadekvat.<br><br>
+      I de fall då en förälder känslomässigt försummar sitt barn kan det leda till konsekvenser för barnet både på lång och kort sikt. Barn som utsätts för detta löper större risk att utveckla otrygghet, få svårt med kontroll av sina känslor och de kan även utveckla problem att kontrollera sina impulser.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="riskForaldrar4" style="display:none">
+    <p><strong>Säkerhet (risk)</strong> <br>
+      Fysiskt och psykiskt våld är båda två riskfaktorer för ett barn. Om det är upprepat eller kraftigt utgör det en större riskfaktor. Om föräldrarna har en positiv inställning till kroppsligs bestraffning av barn, så som aga, ökar risken att ett barn utsätts för våld under uppväxten. Att ett barn utsätts för våld, fysiskt eller psykiskt, gör att barnet riskerar att utveckla fysiska såväl som psykosociala problem, vilket kan fortsätta in i vuxenlivet. <br><br>
+      Våld mellan vuxna i hemmet utgör ett flertal risker för barnet. Normalisering av våld som ett sätt att lösa konflikter, bristande föräldraförmåga hos den som blir utsatt för våld och stark oro hos barnet kan vara några av sakerna som våld mellan vuxna i hemmet kan leda till. <br><br>   
+      Andra typer av risker för ett barn gällande säkerheten är föräldrar som utnyttjar sina barn till att delta i kriminella handlingar, arbeta eller tigga
+      </p>
+  </div>
+  <div class="col-12 analysText" id="skyddFamilj1" style="display:none">
+    <p><strong>Nuvarande familjesituation (skydd)</strong> <br>
+      Barn som växer upp med god kontakt med båda sina föräldrar löper inte i samma utsträckning som andra barn att utsättas för bristande omsorg eller utveckla psykisk ohälsa senare i livet.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="skyddFamilj2" style="display:none">
+    <p><strong>Familjebakgrund (skydd)</strong><br>
+      Socialstyrelsen listar inte några skydd på detta område.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="skyddFamilj3" style="display:none">
+    <p><strong>Boende, arbete och ekonomi (skydd)</strong> <br>
+      Föräldrar som har arbete, god ekonomi och ett tryggt boende har en god grund för ett gott föräldraskap.   
+      Att barnet har en trygg plats i hemmet och kan ta hem vänner gör att barnet löper en mindre risk att utveckla psykosociala problem. Att växa upp i ett område där den socioekonomiska statusen är hög är också ett skydd för barnet. <br><br>
+      Om föräldrarna har en god förankring i arbetsmarknaden minskar riskerna för bristande omsorg och det gör att möjligheterna till en ekonomisk trygghet ökar. Det kan också leda till att föräldrarna känner sig som en viktig del av samhället, vilket också är en skyddande faktor. En god ekonomi kan också vara ett stöd den dagen barnet ska flytta hemifrån, då det kan öka chanserna till ett stabilt boende även för barnet.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="skyddFamilj4" style="display:none">
+    <p><strong>Socialt nätverk och integrering (skydd)</strong> <br>
+      Barn och föräldrar som har ett välfungerande nätverk runt sig är en skyddande faktor. Det kan innebära att föräldrar som behöver stöd kan få detta, och det kan även göra att fler personer reagerar om ett barn riskerar att fara illa.     
+      Om ett barn har egna svårigheter eller diagnoser kan nätverket ofta stötta upp och hjälpa. Om familjen också tar emot stödjande insatser från socialtjänst eller sjukvård är det också ett skydd för barnet. Det innebär att fler personer är insatta i barnets problematik och således kan barnet och familjen få det stöd som de behöver.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="skyddUtveckling1" style="display:none">
+    <p><strong>Hälsa (skydd)</strong> <br>
+      Barn som har en god hälsa och utveckling har ett större skydd mot att senare i livet utveckla psykosocial problematik. Om ett barn sover bra, är friskt, har god fysisk hälsa och äter bra är det tecken på god hälsa.<br><br>    
+      Att föräldrarna ser till att barnet har den sjuk- och tandvård som ges möjlighet till är också en skyddsfaktor. På så vis kan eventuella problem som uppstår upptäckas i god tid och man kan göra något åt det. Det är viktigt att barn tar del av de hälsokontroller som erbjuds i både skola och sjukvård, och om detta görs innebär det ett skydd för barnet. Om ett barn är sjukt är en regelbunden kontakt med läkare är viktigt skydd.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="skyddUtveckling2" style="display:none">
+    <strong>Utbildning (skydd)</strong><br>
+      Ett viktigt skydd för barn är att det trivs i skolan och med skolkamrater. Skolan är ofta den viktigaste platsen att trivas på efter familjen. Att ha goda kamrater och en stimulerande skolgång är viktigt för en fortsatt positivt utveckling i livet.  
+      Att ett barn ges möjlighet till en god skolgång där barnet får möjligheten att utvecklas på ett åldersadekvat vis med godkända betyg är viktigt. Det innebär en skyddande faktor, och dessa barn har en större möjlighet att senare i livet klara påfrestningar på ett bättre vis än andra. 
+      Barn som har möjlighet att leka och utveckla egna intressen tenderar att i större utsträckning än andra barn skapa en bättre psykisk hälsa även senare i livet. Om det är så att barnet inte får den stimulans i hemmet som barnet behöver är egna intressen extra viktigt.
+  </div>
+  <div class="col-12 analysText" id="skyddUtveckling3" style="display:none">
+    <p><strong>Känslor och beteende (skydd)</strong> <br>
+      Ett barn som har fått stor tillgång till kärlek och närhet under sin uppväxt löper en större chans att utveckla goda relationer i livet. Det ökar också motståndskraften att klara stora påfrestningar. Det är en styrka att ett barn söker sig till någon av föräldrarna om barnet behöver tröst eller stöd.
+      Om man som barn är glad och mår bra för det mesta kommer det även att leda till positiva effekter framåt, då det ökar chansen att hantera problem och risker. Barn som kan reglera sina känslor på ett bra vis har en skyddande faktor i det. <br><br>
+      Barn som är trygga i vem de är har ett skydd i det, och tro på sig själv och sin förmåga får positiva effekter för barnet.
+      Ett barn som utvecklat en ålderadekvat  integritet och självständighet har enklare för att sätta gränser inför sig själv och andra personer. Detta utgör ett skydd. Detta underlättar också för barnet när det kommer till att lösa konflikter och problem på ett bättre vis. Att vara positivt och vilja lösa situationer konstruktivt är en stor tillgång under hela livet. <br><br>   
+      Att ha socialt sett positiva egenskaper, så som artighet och att vara hjälpsam är egenskaper som är ett skydd för barnet. Det ökar chanserna till att få vänner och goda relationer i sin omgivning. Det minskar också riskerna för att få destruktiva relationer.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="skyddUtveckling4" style="display:none">
+    <p>Sociala relationer (skydd)<br>
+      För ett barn är det viktigt att ha goda relationer till föräldrarna eller familjehemsföräldrarna. Det minskar risken för att utveckla psykosociala problem i framtiden och det ökar chanserna att utvecklas på ett adekvat vis. Det är också viktigt att det sker et. successiv frigörande mellan barnet och föräldrarna för att barnet senare i livet ska ha en god förmåga att ta hand om sig själv. Att barnet utvecklar ett eget nätverk är också viktigt. <br><br>
+      >Att barnet har relationer som bygger på positiva attityder och aktiviteter är ett skydd. Det minskar riskerna för att få ett destruktivt umgänge. Dessa relationer kan vara med kamrater, men också med vuxna personer i dess närhet. Detta är extra viktigt om föräldrarna brister i sin förmåga att ta hand om barnet. Många av dagens sociala relationer sker via internet, vilket kan skapa en större tillgång till relationerna.
+    </p>
+  </div>
+  <div class="col-12 analysText" id="skyddForaldrar1" style="display:none">
+    <p><strong>Grundläggande omsorg (skydd)</strong> <br>
+      Att ha en god grundläggande omsorg om sitt barn är viktigt genom hela dess uppväxt. Basala behov som mat och sömn behövs för en god utveckling. Föräldrarna behöver också se till att barnet får fysisk rörelse, kläder efter väder och att barnet har en god hygien.  
+      Kontakt med sjukvården är också viktig, då det där kan upptäckas om det finns underliggande sjukdomar hos barnet. Genom sjukvården kan man också få tips och råd för hur man utvecklar ett gott samspel med barnet och om hur barn vanligtvis utvecklas. <br><br>
+      För ett barn är det viktigt att det finns vardagsrutiner i hemmet. Det skapar en trygghet hos barnet att veta att saker och ting är förutsägbara hemma. Att hålla tider till skola och förskola är också viktigt då det lär barnet hur samhället fungerar och vad som kommer att förväntas senare i livet.
+      Det är viktigt att föräldrarna tar ett ansvar för ett barns behov både praktiskt och känslomässigt. Föräldrar behöver sätta barnens behov i det främsta rummet utifrån barnets ålder och utveckling. Det är viktigt att föräldrar lär barnet att ta ansvar på egen hand i de fall det är möjligt.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="skyddForaldrar2" style="display:none">
+    <p><strong>Stimulans och vägledning (skydd)</strong> <br>
+      I början av barnets liv är samspelet med föräldrarna mycket viktigt för utveckling. Ju äldre barnet blir är samspelet med kamrater sedan viktigare och viktigare. Det är viktigt att föräldrar stöttar barnet att ta nya kamratkontakter och att föräldrarna är engagerade i dessa.  
+      Föräldrar behöver ha kunskap i hur mycket barnet klarar på egen hand. Detta då det är viktigt att barnet känner att det kan lyckas med de uppgifter eller förväntningar som en förälder lägger på barnet. Detta hjälper också barnet att lita på att klara de uppgifter som en annan person lägger på dem, vilket kan leda till ett ökat självförtroende hos barnet. Barn som upplever att föräldrar är engagerade i deras skolarbete tenderar också att arbeta hårdare i skolan, vilket är ett skydd för barnet. <br><br>
+      Att föräldrar uppmuntrar barnet till att leka och umgås med andra barn är viktigt för barnet. Här kan barnet utveckla sig själv och även få nya intressen genom sina kamrater. Det är viktigt att föräldrarna lyssnar in barnet och sätter gränser när det kommer till aktiviteter och intressen, då både för många och för få aktiviteter kan hämma barnet.
+      Föräldrar som kan balansera en tydlig men också hänsynsfull uppfostring är ett skydd för barnet. Det är viktigt att barnet får komma till tals, men att gränser sätts av föräldrarna.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="skyddForaldrar3" style="display:none">
+    <p><strong>Känslomässig tillgänglighet (skydd)</strong> <br>
+      Om ett barn har en långvarig och trygg relation med sina föräldrar kan detta vara ett skydd för barnet. Föräldrarna behöver kunna hantera sina egna känslor och samtidigt vara tillgängliga känslomässigt för sina barn. Det är viktigt för att barnet ska lära sig att på egen hand kunna hantera sina känslor i framtiden. Att vara tillgänglig och lyhörd som förälder hjälper också barnet att utvecklas väl och skapa en god anknytning mellan barn och förälder.
+      </p>
+  </div>
+  <div class="col-12 analysText" id="skyddForaldrar4" style="display:none">
+    <p><strong>Säkerhet (skydd)</strong> <br>
+      Att föräldrarna har en negativ syn på aga gör att risken för att barnet ska utsättas för våld minskar.  Om ett barn har utsatts för våld är det viktigt att föräldrarna har kunskap kring vad det kan få för negativa effekter och man söker den vård som krävs.
+      Om ett barn skyddas från allvarliga konflikter i hemmet och skyddas från att bevittna våld är det en skyddande faktor. Har barnet upplevt detta är det viktigt att föräldrarna pratar med barnet om vad som har hänt och varför det blivit så. Behövs ytterligare stöd ska föräldrarna söka upp det. <br><br>    
+      Föräldrar som pratar med sina barn om samhällsnormer gällande våld och konflikter ökar skyddet för sitt barn. Det är också viktigt att föräldrar hjälper barn att inte utsättas för exploatering eller rekrytering på internet.
+      </p>
+  </div>
+
+ <!-- <button class="btn btn-primary" type="button" onclick="analysCheckbox">Analysera</button>-->
+</div>
+
+    </div>
+    </div>
+    </div>
+    <footer>
+      <br>
+     <!-- <li class="sitemap">
+        <ul>
+          <a href="sitecontent.html" target="_blank">Site map</a>-->
+        </ul>
+      </li>
+    </footer>
+    <script src="js/mainjs.js"></script>
+</body>
+</html>

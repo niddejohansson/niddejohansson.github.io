@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="theme-switch">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hur du kontaktar oss"/> 
+  <meta name="keywords" content="kontakt, kontakta oss, utreda, socialtjänsten, bbic, ibic, utredning, digital hjälp utredning, analys socialtjänsten, bedömning socialtjänsten, analys soc, bedömning soc">
+  <meta property="og:type" content="website" /> 
+  <meta property="og:title" content="Utredningshjälp" /> 
+  <meta property="og:url" content="https://enklareutredning.se"/> 
+  <!-- <meta property="og:image" content="https://7zea.com/app/filesads/1844/medium/1618274407-29.jpg">  -->
+  <meta property="og:description" content="Underlätta ditt arbete i vardagen på socialtjästen"/> 
+  <meta property="og:site_name" content="enklareutredning.se"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/main.css">
+    <title>Kontakt</title>
+</head>
+<header>
+    <nav class="navbar navbar-nav navbar-light bg-light navbar-expand-sm">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navCollapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Hem</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="analys.html">Analys</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="varfor.html">Varför</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="om_oss.html">Om</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kontakt.html">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+    </nav>
+    <!--<div class="theme-switch-wrapper">
+  <label class="theme-switch" for="checkbox">
+      <input type="checkbox" id="checkbox" />
+      <div class="slider round"></div>
+</label>
+<em class="darkModeText">Dark Mode</em>
+</div> -->
+        <div class="overlay">
+            <h1>Enklare utredning</h1>
+            <h3>- Ditt dagliga stöd i utredningsarbetet -</h3>
+        </div>
+</header>
+<body>
+<div class="container">
+    <div class="row"> 
+        <div class="col-md-8">
+            <h2>Här skriver jag något</h2>
+            <p class="text_kontakt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, vel. Cupiditate inventore qui tempore expedita officia? Dolores quas maxime nesciunt, asperiores repellendus adipisci nihil eos aspernatur soluta assumenda, cupiditate dolorem.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio blanditiis hic eligendi impedit explicabo adipisci possimus facilis molestias. Laborum aperiam porro dolores reiciendis dolorem commodi tempora, quidem repudiandae ullam assumenda.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium deserunt dicta, magni labore repudiandae cumque saepe sint corporis reiciendis. Deleniti maiores totam, cum nobis quasi ratione laborum eum aperiam quidem!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit autem fugit a tempore, provident exercitationem impedit quas totam id laudantium excepturi deserunt aliquid vitae assumenda possimus libero laboriosam rerum labore?</p>
+        </div>
+        <div class="col-md-4">
+            <div class="text_layout">
+                <h2>Kontakta oss</h2>
+                <div class="kontakt">
+                    <form name="kontaktform" action="kontakt.html" onsubmit="return validateForm()">
+                        <input type="text" id="fname" name="firstname" placeholder="Förnamn" onkeydown="return tabOnEnter(this,event)"><br>
+                        <div class="felmeddelande"></div>
+                        <input type="text" id="lname" name="lastname" placeholder="Efternamn" onkeydown="return tabOnEnter(this,event)"><br>
+                        <div class="felmeddelande"></div>
+                        <input type="email" id="email" name="email" placeholder="Din e-post" onkeydown="return tabOnEnter(this,event)"><br>
+                        <div class="felmeddelande"></div>
+                        <textarea id="subject" name="subject" placeholder="Din fråga" style="height:200px"></textarea><br>
+                        <input type="submit" value="Skicka">
+                    </form>
+                </div> 
+            </div>
+        </div>
+                
+            </div>
+        </div>
+</div>
+    <footer>
+      <br>
+      <li class="sitemap">
+        <ul>
+          <a href="sitecontent.html" target="_blank">Site map</a>
+        </ul>
+      </li>
+    </footer>
+    <script src="js/mainjs.js"></script>
+</body>
+</html>
