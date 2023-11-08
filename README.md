@@ -1,2 +1,2 @@
 # niddejohansson.github.io
-My CV site
+My CV site. Built using React and Styled components.
