@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ed6654ad.css",
+    "main.js": "/static/js/main.6378d389.js",
+    "static/media/krukmakeriet.png": "/static/media/krukmakeriet.460c86602ecadb62b141.png",
+    "static/media/planning.png": "/static/media/planning.8db408d1fadbc36fe7cd.png",
+    "static/media/image-about.jpg": "/static/media/image-about.3deec71883f0b3bf931e.jpg",
+    "static/media/wallet3.png": "/static/media/wallet3.49de8c3da359fe14267d.png",
+    "index.html": "/index.html",
+    "main.ed6654ad.css.map": "/static/css/main.ed6654ad.css.map",
+    "main.6378d389.js.map": "/static/js/main.6378d389.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed6654ad.css",
+    "static/js/main.6378d389.js"
+  ]
+}
