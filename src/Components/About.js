@@ -25,7 +25,7 @@ export default function About(props) {
             <TwoColumnContainer>
               <Column>
                 <p>
-                  Jag heter Niklas Johansson, är 35 år och bor i Malmö. Jag har
+                  Jag heter Niklas Johansson och är 35 år. Jag har
                   ett stort intresse för programmering, och jag längtar efter
                   att fördjupa de kunskaper jag tillägnade mig under min
                   utbildning inom frontendutveckling med fokus på webbsäkerhet.
@@ -49,8 +49,7 @@ export default function About(props) {
             <TwoColumnContainer>
               <Column>
                 <p>
-                  My name is Niklas Johansson, I am 35 years old and I live in
-                  Malmö. I have a strong interest in programming, and I look
+                  My name is Niklas Johansson and I am 35 years old. I have a strong interest in programming, and I look
                   forward to deepening the knowledge I acquired during my
                   education in frontend development with a focus on web
                   security. As a person, I am cheerful and positive, and I find
